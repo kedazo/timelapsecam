@@ -1,0 +1,11 @@
+Makefile
+moc_*
+*.o
+gui/timelapsecam-qt4
+gui/ui_dialog.h
+debian/timelapsecam
+debian/timelapsecam-gui
+debian/tmp
+debian/files
+debian/*.log
+debian/*.substvars
