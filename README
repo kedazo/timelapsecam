@@ -1,0 +1,18 @@
+Timelapse camera
+-------------------------------
+Author:
+ David Kedves <kedazo@gmail.com>
+
+License:
+ GPL v2.0
+
+About:
+ Whith this application you can make timelapse videos
+ using your webcameras (or any v4l compatible device).
+
+This project contains two subprojects:
+ - a script which does the image capture and the video creation
+ - a small GUI to make the configuration and start the video creation script
+
+Debian packaging was made for Ubuntu GNU/Linux distributions.
+
