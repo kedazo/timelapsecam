@@ -1,0 +1,22 @@
+Source: timelapsecam
+Section: devel
+Priority: optional
+Maintainer: David Kedves <kedazo@gmail.com>
+Build-Depends: debhelper (>= 5), qt4-qmake | qmake, libqt4-dev
+Standards-Version: 3.9.1
+
+Package: timelapsecam
+Priority: optional
+Section: misc
+Architecture: all
+Depends: ${misc:Depends}, v4l-conf, streamer, ffmpeg
+Description: Timelapse video creation script
+
+Package: timelapsecam-gui
+Priority: optional
+Section: misc
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends},
+         timelapsecam, xterm
+Description: GUI frontend for the timelapse video creation script
+
